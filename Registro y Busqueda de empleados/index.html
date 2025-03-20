@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema De Registro Y Busqueda De Empleados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registro de Empleados</h1>
+        
+        <div class="main-content">
+            <!-- Formulario de Registro -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>Registrar Nuevo Empleado</h2>
+                </div>
+                <div class="card-content">
+                    <form id="registrationForm">
+                        <div class="form-group">
+                            <label for="firstName">Nombre</label>
+                            <input type="text" id="firstName" name="firstName">
+                            <span class="error" id="firstNameError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="paternalLastName">Apellido Paterno</label>
+                            <input type="text" id="paternalLastName" name="paternalLastName">
+                            <span class="error" id="paternalLastNameError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="maternalLastName">Apellido Materno</label>
+                            <input type="text" id="maternalLastName" name="maternalLastName">
+                            <span class="error" id="maternalLastNameError"></span>
+                        </div>
+                        
+                        <div class="form-group date-group">
+                            <div class="date-field">
+                                <label for="birthDay">Día</label>
+                                <input type="number" id="birthDay" name="birthDay" min="1" max="31">
+                                <span class="error" id="birthDayError"></span>
+                            </div>
+                            
+                            <div class="date-field">
+                                <label for="birthMonth">Mes</label>
+                                <input type="number" id="birthMonth" name="birthMonth" min="1" max="12">
+                                <span class="error" id="birthMonthError"></span>
+                            </div>
+                            
+                            <div class="date-field">
+                                <label for="birthYear">Año</label>
+                                <input type="number" id="birthYear" name="birthYear" min="1900">
+                                <span class="error" id="birthYearError"></span>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn">Registrar Empleado</button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Lista de Usuarios -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>Busqueda De Empleados</h2>
+                    <div class="search-container">
+                        <input type="text" id="searchInput" placeholder="Buscar por nombre, apellido paterno o fecha...">
+                        <span class="search-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <div class="table-container">
+                        <table id="usersTable">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Nombre</th>
+                                    <th>Apellido Paterno</th>
+                                    <th>Apellido Materno</th>
+                                    <th>Fecha de Nacimiento</th>
+                                </tr>
+                            </thead>
+                            <tbody id="usersTableBody">
+                                <!-- Los usuarios se agregarán aquí dinámicamente -->
+                            </tbody>
+                        </table>
+                        <div id="emptyMessage" class="empty-message">No hay usuarios registrados</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
