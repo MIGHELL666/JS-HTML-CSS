@@ -1,4 +1,4 @@
-<img src="baner-js-html-css.jpeg" alt="Mi Banner" width="800">
+<img src="baner-js-html-css.jpeg" alt="Mi Banner" width="1024">
 
 
 # 🎨🚀 **COLECCIÓN DE PROYECTOS FRONTEND** 🖥️✨  
