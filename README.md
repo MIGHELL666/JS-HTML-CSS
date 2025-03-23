@@ -35,8 +35,6 @@ Aquí encontrarás una **colección de proyectos y experimentos web**, donde apl
 
 ## 🚀 **OBJETIVO DE ESTE REPOSITORIO**  
 
-💡 **Este repositorio es un laboratorio de desarrollo frontend**, donde experimento con nuevas tecnologías, optimización de interfaces y metodologías innovadoras.  
-
-Si eres **desarrollador, estudiante o entusiasta del frontend**, este espacio te servirá como **inspiración, referencia o punto de partida** para tus propios proyectos.  
+>💡 **Este repositorio es un laboratorio de desarrollo frontend**, donde experimento con nuevas tecnologías, optimización de interfaces y metodologías innovadoras.  
 
 ---
