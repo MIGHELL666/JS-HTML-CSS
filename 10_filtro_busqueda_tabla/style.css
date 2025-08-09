@@ -1,0 +1,5 @@
+body{font-family:system-ui;background:#0b1020;color:#e5e7eb;min-height:100vh;padding:2rem}
+input{padding:.5rem;border-radius:.5rem;border:1px solid #374151;background:#111827;color:#e5e7eb;margin-bottom:1rem;width:280px}
+table{width:100%;border-collapse:collapse}
+th,td{border:1px solid #374151;padding:.5rem}
+tr.hide{display:none}

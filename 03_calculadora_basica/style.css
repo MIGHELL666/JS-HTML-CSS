@@ -1,0 +1,6 @@
+body{font-family:system-ui;background:#0b1020;display:grid;place-items:center;min-height:100vh;color:#e5e7eb}
+  .calc{background:#111827;border:1px solid #374151;border-radius:1rem;padding:1rem;width:min(90vw,360px)}
+  input{width:100%;font-size:2rem;padding:.5rem;border-radius:.6rem;border:1px solid #374151;background:#0b1020;color:#e5e7eb;margin-bottom:.75rem;text-align:right}
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:.5rem}
+  button{padding:1rem;border-radius:.6rem;border:none;background:#1f2937;color:#e5e7eb;font-size:1rem;cursor:pointer}
+  button.op{background:#2563eb} button.eq{background:#10b981} button.cl{background:#ef4444}

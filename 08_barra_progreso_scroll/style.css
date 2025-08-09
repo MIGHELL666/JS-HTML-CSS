@@ -1,0 +1,4 @@
+body{font-family:system-ui;min-height:200vh;margin:0}
+  .bar{position:fixed;top:0;left:0;height:6px;background:#22c55e;width:0}
+  header{position:sticky;top:0;background:#0b1020;color:#e5e7eb;padding:1rem}
+  main{padding:1rem;line-height:1.6}
